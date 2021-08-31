@@ -100,7 +100,7 @@ public class DodgeModePanel extends JPanel  {
         label.setForeground(Color.BLACK);
      //   label.setLocation(SCREEN_WIDTH/2, SCREEN_HEIGHT/6);
         this.add(label);
-        add(pressR);
+        this.add(pressR);
         label.setVisible(true);
         revalidate();
     }
