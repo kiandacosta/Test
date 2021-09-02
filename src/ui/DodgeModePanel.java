@@ -115,6 +115,7 @@ public class DodgeModePanel extends JPanel  {
     public void generateEnemy() {
         EnemyHead newEnemy = new EnemyHead();
         enemies.add(newEnemy);
+        //test
     }
 
     public void generatePlayer() {
